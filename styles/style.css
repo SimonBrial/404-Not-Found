@@ -1,0 +1,146 @@
+<<<<<<< HEAD
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --font-header: 'Inconsolata', monospace;
+    --font-principal: 'Space Mono', monospace;
+
+}
+
+.header {
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+    }
+
+    .contain {
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+}
+
+img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.contain {
+    padding: 0.5rem;
+}
+
+.bad-news {
+    font-family:var(--font-principal);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.description {
+    font-family:var(--font-principal);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.btn-backHome {
+    font-family: var(--font-principal);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 24px 43px;
+    color: white;
+    background: #333333;
+}
+.btn-backHome:hover {
+    background: #4e4b4b;
+    transition: background 0.5s ease-out;
+=======
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --font-header: 'Inconsolata', monospace;
+    --font-principal: 'Space Mono', monospace;
+
+}
+
+.header {
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+    }
+
+    .contain {
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+}
+
+img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.contain {
+    padding: 0.5rem;
+}
+
+.bad-news {
+    font-family:var(--font-principal);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.description {
+    font-family:var(--font-principal);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.btn-backHome {
+    font-family: var(--font-principal);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 24px 43px;
+    color: white;
+    background: #333333;
+}
+.btn-backHome:hover {
+    background: #4e4b4b;
+    transition: background 0.5s ease-out;
+>>>>>>> 508fdcc3e7d31534650c54f7908223f6059f4c65
+}
